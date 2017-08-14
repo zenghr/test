@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .flex-container {
+            width: 300px;
+            background: #ccc;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .flex-container .flex-item {
+            padding: 20px;
+            background: green;
+        }
+
+        .flex-container .flex-item:first-child {
+            background: yellow;
+        }
+
+        .flex-container .flex-item:last-child {
+            background: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+<div class="flex-container">
+    <div class="flex-item">1</div>
+    <div class="flex-item">2</div>
+    <div class="flex-item">3</div>
+    <div class="flex-item">4</div>
+    <div class="flex-item">5</div>
+    <div class="flex-item">6</div>
+    <div class="flex-item">7</div>
+    <div class="flex-item">8</div>
+</div>
+</body>
+</html>
+</html>
